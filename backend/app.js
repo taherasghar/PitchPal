@@ -10,7 +10,6 @@ const mongoose = require("mongoose");
 const connectDB = require("./config/DBConnection.js");
 const errorHandler = require("./middlewares/errorHandler.js");
 const path = require("path");
-// const BookingExpireyManager = require("./middlewares/BookingExpireyManager.js");
 connectDB();
 
 app.use(cookieParser());
@@ -22,8 +21,6 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use("/assets", express.static(path.join(__dirname, "assets")));
-
-// app.use(BookingExpireyManager);
 
 app.use("/", require("./routes/rootRoutes.js"));
 
