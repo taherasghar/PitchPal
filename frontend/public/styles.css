@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+
+}
+
+.header-section {
+    padding: 1%;
+    background-image: url("./images/grass-background.jpg");
+
+}
+
+.header-section>.child {
+    background-color: rgba(76, 219, 119, 0.19);
+
+
+}
+
+.padding-zero {
+    padding: 0px;
+}
+
+.border-custom-edit {
+    border-radius: 1rem;
+    background-color: rgba(143, 224, 143, 0.3);
+
+}
+
+.pitchpal-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pitchpal-brand>img {
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.navbar-custom-edit {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-col>h2 {
+    font-family: cursive;
+}
+
+.flex-col>h2 {
+    width: 60%;
+    text-align: center;
+    margin: 1%;
+}
+
+.pitchpal-brand {
+    align-self: flex-start;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link-host {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+
+}
+
+.hr-line {
+    color: yellow;
+}
+
+.search-bar-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 3rem;
+    padding: 11px;
+    margin: 2rem;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    min-width: fit-content;
+    background-color: rgba(143, 224, 143, 0.3);
+}
+
+.search-bar-container>* {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 40px;
+    background-color: rgba(143, 224, 143, 0.8);
+    border: none;
+
+
+}
+
+.search-bar-container>input, select {
+    border-radius: 7px;
+
+}
+
+.search-bar-container>select {
+    width: 110px;
+}
+
+.place-icon-btn {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+}

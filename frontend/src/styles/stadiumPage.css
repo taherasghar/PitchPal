@@ -1,0 +1,105 @@
+.rating-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.rating-block h5 {
+  margin-bottom: 10px;
+}
+
+.topStaduims .swiper-button-prev img {
+  position: absolute;
+  z-index: 99995 !important;
+  left: -14px;
+}
+
+.topStaduims .swiper-button-next img {
+  position: absolute;
+  z-index: 99995 !important;
+  left: -14;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: "";
+}
+
+.stars {
+  color: #f0803c;
+}
+
+.sliderStad img {
+  height: 370px;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .cardPlayground .card-body {
+    display: flex;
+  }
+
+  .imgAbsolute {
+    display: none;
+    position: relative;
+    margin-top: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    /* display: block; */
+  }
+
+  .jumbo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .textLg {
+    font-size: 18px;
+  }
+
+  .bgImage {
+    margin: unset;
+    margin-right: 1rem;
+  }
+
+  .willHide {
+    display: none;
+  }
+
+  .cardList .card-img-top {
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    position: relative;
+    height: 100%;
+  }
+
+  .sliderStad img {
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+}
+
+.editPicker {
+  padding: 1rem 0.5rem;
+  box-shadow: 0px 12px 28px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.editPicker .ui-widget.ui-widget-content {
+  margin: auto;
+}
